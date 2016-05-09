@@ -1,0 +1,60 @@
+#blur-image{
+    display: block;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    filter:blur(10px);
+    -ms-filter:blur(10px);
+    -webkit-filter:blur(10px);
+    -moz-filter:blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+#blur-div{
+    width:800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+#canvas{
+    display:block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+.button{
+    display: block;
+    position: absolute;
+    z-index: 200;
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+
+   border-radius: 5px;
+}
+#reset-button{
+    left: 200px;
+    bottom: 20px;
+    background: #058;
+
+}
+#reset-button:hover{
+    background: #136c77;
+}
+#show-button{
+    right: 200px;
+    bottom: 20px;
+    background: #085;
+
+}
+#show-button:hover{
+    background: #0d775e;
+}
