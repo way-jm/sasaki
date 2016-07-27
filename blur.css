@@ -48,6 +48,7 @@
 }
 #reset-button:hover{
     background: #136c77;
+    width:200px;
 }
 #show-button{
     right: 200px;
